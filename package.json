@@ -1,0 +1,17 @@
+{
+  "name": "lucide-icons-sprite",
+  "version": "0.1",
+  "description": "Generate SVG sprite for Lucide icons",
+  "main": "index.js",
+  "author": "Andrei B.",
+  "license": "MIT",
+  "dependencies": {
+    "lucide-static": "^0.17.0",
+    "mkdirp": "^1.0.4",
+    "svg-sprite": "^1.5.3"
+  },
+  "scripts": {
+    "postinstall": "yarn upgrade-interactive --no-progress",
+    "start": "node index.js"
+  }
+}
